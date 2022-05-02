@@ -1,0 +1,8 @@
+<h1>Essetee's Webpages</h1>
+{% for page in pages %}
+<ul>
+  <li>{{ page.id }}</li>
+  <li>{{ page.fileName }}</li>
+  <li>{{ page.description }}</li>
+</ul>
+{% endfor %}
